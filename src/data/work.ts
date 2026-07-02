@@ -28,12 +28,12 @@ export const WORK: WorkItem[] = [
     url: 'https://repository-host-05.pages.dev',
   },
   {
-    slug: 'take-meowt-cat-cafe',
-    name: 'Take Meowt',
+    slug: 'whisker-and-bean',
+    name: 'Whisker & Bean',
     trade: 'Cat Cafe',
-    blurb: 'Playful, warm-toned booking site for a Tulsa cat cafe — lounge reservations and adoptable-cat gallery.',
+    blurb: 'Playful, warm-toned booking site for an Edmond cat cafe — lounge reservations and adoptable-cat gallery.',
     tag: 'Concept Project',
-    image: '/work/take-meowt.jpg',
-    url: 'https://take-meowt-cat-cafe.pages.dev',
+    image: '/work/whisker-and-bean.jpg',
+    url: 'https://whisker-and-bean-cafe.pages.dev',
   },
 ];
