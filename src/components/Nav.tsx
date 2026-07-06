@@ -7,7 +7,7 @@ const LINKS = [
   { label: 'Home', to: '/' },
   { label: 'Work', to: '/work' },
   { label: 'About', to: '/about' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'Products', to: '/products' },
 ];
 
 export const Nav: React.FC = () => {

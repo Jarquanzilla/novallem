@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Nav } from './components/Nav';
 import { Footer } from './components/Footer';
@@ -7,7 +7,7 @@ import { ScrollToTop } from './components/ScrollToTop';
 import Home from './pages/Home';
 import Work from './pages/Work';
 import About from './pages/About';
-import Contact from './pages/Contact';
+import Products from './pages/Products';
 
 const PageTransition: React.FC<{ children: React.ReactNode }> = ({ children }) => (
   <motion.div
@@ -32,7 +32,8 @@ export const App: React.FC = () => {
           <Route path="/" element={<PageTransition><Home /></PageTransition>} />
           <Route path="/work" element={<PageTransition><Work /></PageTransition>} />
           <Route path="/about" element={<PageTransition><About /></PageTransition>} />
-          <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+          <Route path="/products" element={<PageTransition><Products /></PageTransition>} />
+          <Route path="/contact" element={<Navigate to="/products" replace />} />
         </Routes>
       </AnimatePresence>
       <Footer />

@@ -33,7 +33,8 @@ export const Footer: React.FC = () => {
           <ul className="flex flex-col gap-2 text-label text-white/50">
             <li><Link to="/work" className="hover:text-moss-300 transition-colors">Work</Link></li>
             <li><Link to="/about" className="hover:text-moss-300 transition-colors">About</Link></li>
-            <li><Link to="/contact" className="hover:text-moss-300 transition-colors">Contact</Link></li>
+            <li><Link to="/products" className="hover:text-moss-300 transition-colors">Products</Link></li>
+            <li><Link to="/#contact" className="hover:text-moss-300 transition-colors">Contact</Link></li>
           </ul>
         </div>
       </div>
